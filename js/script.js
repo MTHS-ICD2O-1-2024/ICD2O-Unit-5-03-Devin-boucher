@@ -11,13 +11,13 @@ function checkNumber () {
   let age = parseFloat(document.getElementById('age').value)
 
   if (age >= 17) {
-    age = ("You can see an R movie alone.")
+    age = ('You can see an R movie alone.')
   } else if (age >= 13) {
-    age = ("You can see a PG-13 movie alone")
+    age = ('You can see a PG-13 movie alone')
   } else if (age >= 5) {
-    age = ("You can see a G or PG movie alone")
+    age = ('You can see a G or PG movie alone')
   } else {
-    age = ("You're too young for most things, pal")
+    age = ('Your too young for most things, pal')
   }
 
   document.getElementById('result').innerHTML = `<p><strong>${age}</strong></p>`
